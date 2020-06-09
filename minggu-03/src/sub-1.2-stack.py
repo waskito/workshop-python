@@ -1,0 +1,10 @@
+stack = [3, 4, 5]
+print('stack', stack)
+stack.append(6)
+stack.append(7)
+print('after append 6 & 7', stack)
+stack.pop()
+print('after pop', stack)
+stack.pop()
+stack.pop()
+print('after pop twice', stack)
